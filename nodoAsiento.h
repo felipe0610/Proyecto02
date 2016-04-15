@@ -19,13 +19,13 @@ using namespace std;
 
 class nodoAsiento{
 public:
-    nodoAsiento(Asiento pasiento);
-    void setAsiento(Asiento pasiento);
+    nodoAsiento(Asiento *pasiento);
+    void setAsiento(Asiento *pasiento);
     void setSiguiente(nodoAsiento *psiguiente);
-    Asiento getAsiento(void);
+    Asiento * getAsiento(void);
     nodoAsiento * getSiguiente(void);
 private:
-    Asiento asiento;
+    Asiento *asiento;
     nodoAsiento *siguiente;
 };
 

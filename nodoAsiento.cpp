@@ -11,13 +11,13 @@
 using namespace std;
 
 
-nodoAsiento::nodoAsiento(Asiento pasiento){
+nodoAsiento::nodoAsiento(Asiento *pasiento){
     asiento = pasiento;
     siguiente = NULL;
 }
 
 
-void nodoAsiento::setAsiento(Asiento pasiento){
+void nodoAsiento::setAsiento(Asiento *pasiento){
     asiento = pasiento;
 }
 
@@ -27,7 +27,7 @@ void nodoAsiento::setSiguiente(nodoAsiento* psiguiente){
 }
 
 
-Asiento nodoAsiento::getAsiento(){
+Asiento * nodoAsiento::getAsiento(){
     return asiento;
 }
 

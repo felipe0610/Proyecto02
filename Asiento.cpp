@@ -7,9 +7,14 @@
 #include "Asiento.h"
 
 
+
+Asiento::Asiento(){
+    Asiento(0,'L');
+}
+
 Asiento::Asiento(double pprecio, char pestado){
-    precio = precio;
-    estado = 'L';
+    precio = pprecio;
+    estado = pestado;
 }
 
 
