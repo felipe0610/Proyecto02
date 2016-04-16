@@ -20,6 +20,7 @@ using namespace std;
 
 class Asiento{
 public:
+    Asiento();
     Asiento(double pprecio, char pestado);
     void setPrecio(double pprecio);
     void setEstado(char pEstado);
