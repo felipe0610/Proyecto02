@@ -29,6 +29,15 @@ void graderiaPreferencial::setMaxLongitud(int pmaxLongitud){
 }
 
 
+int graderiaPreferencial::getLongitud(){
+    return longitud;
+}
+
+int graderiaPreferencial::getMaxLongitud(){
+    return MAX_LONGITUD;
+}
+
+
 bool graderiaPreferencial::esVacia(){
     return longitud == 0;
 }
